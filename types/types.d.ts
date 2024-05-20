@@ -1,5 +1,6 @@
 type PlantsFamily =
   | "Acanthaceae"
+  | "Acoraceae"
   | "Amaranthaceae"
   | "Anacardiaceae"
   | "Apiaceae"
@@ -238,8 +239,7 @@ type EatablePart =
   | "Leaves and stems"
   | "Leaves and flowers"
   | "Leaves and seeds"
-  | "Whole plant"
-  | "Other";
+  | "Whole plant";
 
 type GrowthPeriod =
   | "Annual"
